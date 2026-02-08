@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care | LuxeGlow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo">Luxe<span>Glow</span></a>
+            
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="skincare.html" class="nav-link active">Skin Care</a></li>
+                    <li><a href="perfumes.html" class="nav-link">Perfumes</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="#" class="cart-icon" id="cartIcon"><i class="fas fa-shopping-bag"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Skin Care Hero -->
+    <section class="about-hero" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/banner/skincare\ banner\ 3.jpeg');">
+        <div class="container">
+            <h1>Skin Care Collection</h1>
+            <p>Nourish your skin with premium formulas</p>
+        </div>
+    </section>
+
+    <!-- Skin Care Products -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Premium Skin Care</h2>
+            <p class="text-center" style="max-width: 800px; margin: 0 auto 40px;">Our scientifically-backed skin care line is designed to address specific concerns while maintaining the health and integrity of your skin's natural barrier.</p>
+            
+            <!-- Skin Care Categories -->
+            <div style="margin-bottom: 40px;">
+                <h3 style="text-align: center; margin-bottom: 20px;">Shop by Category</h3>
+                <div class="products-filter">
+                    <button class="filter-btn active" data-filter="all">All Skin Care</button>
+                    <button class="filter-btn" data-filter="serum">Serums</button>
+                    <button class="filter-btn" data-filter="moisturizer">Moisturizers</button>
+                    <button class="filter-btn" data-filter="cleanser">Cleansers</button>
+                </div>
+            </div>
+            
+            <div class="products-grid" id="skincareGrid">
+                <!-- Skin care products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Care Routine Guide -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">The Perfect Skin Care Routine</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Step 1: Cleanse</h3>
+                    <p>Start with our Gentle Cleanser to remove impurities without stripping your skin's natural moisture barrier.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Step 2: Treat</h3>
+                    <p>Apply our Radiance Serum to target specific concerns like aging, dullness, or uneven skin tone.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Step 3: Moisturize</h3>
+                    <p>Lock in hydration with our Hydra Moisturizer to keep your skin plump and dewy throughout the day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section>
+        <style>
+            .center {
+                text-align: center;
+            }
+        </style>
+        <div class="container">   
+        <h1 class="center">Feel your Skin</h1>
+            <p class="center">Our skin care collection is designed to nourish and regenerate your skin with premium ingredients.</p>
+           
+            <video controls width="100%" height="400">
+                <source src="assets/videos/skincare video 3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 class="logo">Luxe<span>Glow</span></h3>
+                    <p>Premium skin care and luxury perfumes crafted to enhance your natural beauty and elevate your senses.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="skincare.html">Skin Care</a></li>
+                        <li><a href="perfumes.html">Perfumes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates on new products and exclusive offers.</p>
+                    <div class="form-group" style="margin-top: 20px;">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button class="btn" style="margin-top: 10px; width: 100%;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 LuxeGlow. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #ff6b6b;"></i> for beauty enthusiasts</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Shopping Bag</h3>
+            <button class="close-cart" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <a href="#" class="btn" style="width: 100%;">Checkout</a>
+        </div>
+    </div>
+
+    <!-- Product Quick View Modal -->
+    <div class="product-quickview" id="productQuickView">
+        <div class="quickview-content">
+            <button class="close-quickview" id="closeQuickView">&times;</button>
+            <div class="quickview-body" id="quickviewBody">
+                <!-- Product details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
